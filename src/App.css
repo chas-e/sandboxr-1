@@ -38,17 +38,21 @@
 }
 
 .cardgrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* Cards in the grid use the item class */
 .item {
-  width: 32%;
-  padding-bottom: 3%; /* Same as width, sets height */
-  padding-top: 3%; /* Same as width, sets height */
-  margin-bottom: 2%; /* (100-32*3)/2 */
-  position: relative;
+  /* width: 33%; */
+  padding-bottom: 4%; /* Same as width, sets height */
+  padding-top: 4%; /* Same as width, sets height */
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 4%; /* (100-32*3)/2 */
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
 }

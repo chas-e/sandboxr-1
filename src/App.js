@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
-import './App.css';
-import CardGrid from './components/CardGrid/CardGrid.jsx'
-import PageTitle from './components/PageTitle/PageTitle.jsx'
+import CardGrid from "./components/CardGrid/CardGrid.jsx";
+import PageTitle from "./components/PageTitle/PageTitle.jsx";
+import { device } from "../src/utils/device";
+
+import "./App.css";
 // import VRScene from './components/VRScene/VRScene.jsx'
 // import 'aframe-react'
 
@@ -11,7 +13,7 @@ function App() {
       <body>
         <PageTitle />
         <h4>
-            <a href="https://angellxr.com/">back to angellxr.com</a>
+          <a href="https://angellxr.com/">back to angellxr.com</a>
         </h4>
         <div>
           <CardGrid />
